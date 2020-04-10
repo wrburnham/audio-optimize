@@ -6,3 +6,9 @@ The program is launched from the terminal with four arguments:
 	dir_out : the output directory, such as /home/somewhere/out
 	ext_in : the extension / format of the sound files present in the input directory (ex: m4a)
 	ext_out : the extension / format desired (ex: mp3)
+
+for example
+
+```
+python3 audio_optimize.py ../audio ../audio/out m4a mp3
+```
